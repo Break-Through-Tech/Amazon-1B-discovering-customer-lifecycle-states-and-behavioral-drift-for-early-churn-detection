@@ -85,7 +85,7 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 The following resources will help your team understand the problem space and potential technical approaches for this project:
 
 **Background Reading:**
-- [Online Retail II dataset: https://archive.ics.uci.edu/dataset/502/online%2Bretail%2Bii
+- Online Retail II dataset: https://archive.ics.uci.edu/dataset/502/online%2Bretail%2Bii
 - RetailRocket dataset: https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset
 - Customer churn overview: https://en.wikipedia.org/wiki/Customer_attrition
 
