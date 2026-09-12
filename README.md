@@ -31,13 +31,40 @@
 
 ## 👩🏽‍💻 **Setup and Installation**
 
-**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
+**1. Clone the repository**
 
-* How to clone the repository
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+```bash
+git clone https://github.com/Break-Through-Tech/Amazon-1B-discovering-customer-lifecycle-states-and-behavioral-drift-for-early-churn-detection
+cd Amazon-1B-discovering-customer-lifecycle-states-and-behavioral-drift-for-early-churn-detection
+```
+
+**2. Create and activate a virtual environment**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+```
+
+**3. Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+**4. Access the dataset**
+
+The raw dataset (both years combined, no cleaning applied yet) ships in the repo at [`data/online_retail_ii.parquet`](data/online_retail_ii.parquet) — pulling the repo is enough to get it:
+
+```python
+import pandas as pd
+df = pd.read_parquet('data/online_retail_ii.parquet')
+```
+
+The raw source is the [Online Retail II dataset](https://archive.ics.uci.edu/dataset/502/online%2Bretail%2Bii) from the UCI Machine Learning Repository, if you need to rebuild the parquet from scratch.
+
+**5. Run the notebooks**
+
+WIP
 
 ---
 
