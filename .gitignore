@@ -1,1 +1,7 @@
+.venv
+.DS_Store
+.ipynb_checkpoints/
 
+# raw downloads - use data/online_retail_ii.parquet instead
+data/*.zip
+data/*.xlsx
