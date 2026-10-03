@@ -1,31 +1,29 @@
 # Discovering Customer Lifecycle States and Behavioral Drift for Early Churn Detection Using Explainable AI and Generative AI
 
-> 💡 **Note for the team:** This is just a template. Update the above title with your AI Studio Challenge Project name. Remove all guidance notes and example text in this template and populate this README with your own content. You can work on this README throughout AI Studio, and get feedback from your AI Studio Coach and Challenge Advisor before finalizing it.  
+> Fall 2026  
 
 ---
 
 ### 👥 **Team Members**
 
-**Example:**
-
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-| Taylor Nguyen    | @taylornguyen | Data exploration, visualization, overall project coordination            |
-| Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
-| Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
-| Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
-| Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
+| Cristian Pena | @cpena-estrada | Data Engineering, Backend, Pandas |
+| Addrita Biswas | @aaayushhhh | Web Design/Web Development, AI/ML |
+| Ashley Cruz Lopez | @ashleyycruz | Python/Full Stack,  AI/ML integration |
+| Medelen Nguyen | @medelennn24   | Python, Pandas, Sklearn |
+| Harshal Patel | @Hersh3y  | Python, Applied AI, Backend Dev |
+| Joshua Stewart-Roberts | @jroberts2605 | R, Java, Python |
+| Dayana Pascual Sanchez | @dayanapascualsanchez | Python, Java, & AI/ML  |
 
 ---
 
 ## 🎯 **Project Highlights**
 
-**Example:**
-
-- Developed a machine learning model using `[model type/technique]` to address `[challenge project task]`.
-- Achieved `[key metric or result]`, demonstrating `[value or impact]` for `[host company]`.
-- Generated actionable insights to inform business decisions at `[host company or stakeholders]`.
-- Implemented `[specific methodology]` to address industry constraints or expectations.
+- Working on an early-warning system to identify customers at risk of churn using public e-commerce purchase data.
+- Exploring changes in purchase frequency, spending, and days since the last purchase to detect declining customer engagement.
+- Planning to compare churn prediction models and identify customer lifecycle states through clustering.
+- Using a 90-day inactivity definition for churn and limiting features to past data to prevent future information from influencing predictions.
 
 ---
 
@@ -70,17 +68,14 @@ WIP
 
 ## 🏗️ **Project Overview**
 
-**Describe:**
-
-- How this project is connected to the Break Through Tech AI Program
-- Your AI Studio host company and the project objective and scope
-- The real-world significance of the problem and the potential impact of your work
+- This project is part of the Fall 2026 Break Through Tech AI Studio, where the team is applying machine learning skills to a real-world customer retention problem.
+- Guided by an Amazon software development engineer volunteering as our challenge advisor, we are using public e-commerce data to predict churn, detect behavioral changes, and explain customer risk.
+- Our work could help businesses identify declining customer engagement earlier, make more informed retention decisions, and reduce revenue loss.
 
 ---
 
-## 📊 **Data Exploration**
+## 📊 **Data Exploration - TBD **
 
-**You might consider describing the following (as applicable):**
 
 * The dataset(s) used: origin, format, size, type of data
 * Data exploration and preprocessing approaches
@@ -93,9 +88,8 @@ WIP
 
 ---
 
-## 🧠 **Model Development**
+## 🧠 **Model Development - TBD **
 
-**You might consider describing the following (as applicable):**
 
 * Model(s) used (e.g., CNN with transfer learning, regression models)
 * Feature selection and Hyperparameter tuning strategies
@@ -104,9 +98,7 @@ WIP
 
 ---
 
-## 📈 **Results & Key Findings**
-
-**You might consider describing the following (as applicable):**
+## 📈 **Results & Key Findings - TBD **
 
 * Performance metrics (e.g., Accuracy, F1 score, RMSE)
 * How your model performed
@@ -118,9 +110,7 @@ WIP
 
 ---
 
-## 🚀 **Next Steps**
-
-**You might consider addressing the following (as applicable):**
+## 🚀 **Next Steps - TBD **
 
 * What are some of the limitations of your model?
 * What would you do differently with more time/resources?
