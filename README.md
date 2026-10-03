@@ -1,6 +1,6 @@
 # Discovering Customer Lifecycle States and Behavioral Drift for Early Churn Detection Using Explainable AI and Generative AI
 
-> Fall 2026  
+> Fall 2026 Amazon 1B - Break Through Tech AI Studio 
 
 ---
 
