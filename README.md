@@ -1,20 +1,20 @@
 # Discovering Customer Lifecycle States and Behavioral Drift for Early Churn Detection Using Explainable AI and Generative AI
 
-> Fall 2026 Amazon 1B - Break Through Tech AI Studio 
+> Fall 2026 Amazon 1B - Break Through Tech AI Studio
 
 ---
 
 ### 👥 **Team Members**
 
-| Name             | GitHub Handle | Contribution                                                             |
-|------------------|---------------|--------------------------------------------------------------------------|
-| Cristian Pena | @cpena-estrada | Data Engineering, Backend, Pandas |
-| Addrita Biswas | @aaayushhhh | Web Design/Web Development, AI/ML |
-| Ashley Cruz Lopez | @ashleyycruz | Python/Full Stack,  AI/ML integration |
-| Medelen Nguyen | @medelennn24   | Python, Pandas, Sklearn |
-| Harshal Patel | @Hersh3y  | Python, Applied AI, Backend Dev |
-| Joshua Stewart-Roberts | @jroberts2605 | R, Java, Python |
-| Dayana Pascual Sanchez | @dayanapascualsanchez | Python, Java, & AI/ML  |
+| Name                   | GitHub Handle         | Contribution                         |
+| ---------------------- | --------------------- | ------------------------------------ |
+| Cristian Pena          | @cpena-estrada        | Data Engineering, Backend, Pandas    |
+| Addrita Biswas         | @aaayushhhh           | Web Design/Web Development, AI/ML    |
+| Ashley Cruz Lopez      | @ashleyycruz          | Python/Full Stack, AI/ML integration |
+| Medelen Nguyen         | @medelennn24          | Python, Pandas, Sklearn, R           |
+| Harshal Patel          | @Hersh3y              | Python, Applied AI, Backend Dev      |
+| Joshua Stewart-Roberts | @jroberts2605         | R, Java, Python                      |
+| Dayana Pascual Sanchez | @dayanapascualsanchez | Python, Java, & AI/ML                |
 
 ---
 
@@ -76,51 +76,48 @@ WIP
 
 ## 📊 **Data Exploration - TBD **
 
-
-* The dataset(s) used: origin, format, size, type of data
-* Data exploration and preprocessing approaches
-* Insights from your Exploratory Data Analysis (EDA)
-* Challenges and assumptions when working with the dataset(s)
+- The dataset(s) used: origin, format, size, type of data
+- Data exploration and preprocessing approaches
+- Insights from your Exploratory Data Analysis (EDA)
+- Challenges and assumptions when working with the dataset(s)
 
 **Potential visualizations to include:**
 
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
+- Plots, charts, heatmaps, feature visualizations, sample dataset images
 
 ---
 
 ## 🧠 **Model Development - TBD **
 
-
-* Model(s) used (e.g., CNN with transfer learning, regression models)
-* Feature selection and Hyperparameter tuning strategies
-* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
-
+- Model(s) used (e.g., CNN with transfer learning, regression models)
+- Feature selection and Hyperparameter tuning strategies
+- Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
 
 ---
 
 ## 📈 **Results & Key Findings - TBD **
 
-* Performance metrics (e.g., Accuracy, F1 score, RMSE)
-* How your model performed
-* Insights from evaluating model fairness
+- Performance metrics (e.g., Accuracy, F1 score, RMSE)
+- How your model performed
+- Insights from evaluating model fairness
 
 **Potential visualizations to include:**
 
-* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+- Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
 
 ---
 
 ## 🚀 **Next Steps - TBD **
 
-* What are some of the limitations of your model?
-* What would you do differently with more time/resources?
-* What additional datasets or techniques would you explore?
+- What are some of the limitations of your model?
+- What would you do differently with more time/resources?
+- What additional datasets or techniques would you explore?
 
 ---
 
 ## 📝 **License**
 
-Specify how your project can be used by others. Choose an appropriate license and link it here (e.g., MIT, Apache 2.0). Make sure your Challenge Advisor approves of the selected license type. 
+Specify how your project can be used by others. Choose an appropriate license and link it here (e.g., MIT, Apache 2.0). Make sure your Challenge Advisor approves of the selected license type.
 
 **Example:**
 This project is licensed under the MIT License.
