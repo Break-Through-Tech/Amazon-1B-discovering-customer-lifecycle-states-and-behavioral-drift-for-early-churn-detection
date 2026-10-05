@@ -11,7 +11,7 @@
 | Cristian Pena          | @cpena-estrada        | Data Engineering, Backend, Pandas    |
 | Addrita Biswas         | @aaayushhhh           | Web Design/Web Development, AI/ML    |
 | Ashley Cruz Lopez      | @ashleyycruz          | Python/Full Stack, AI/ML integration |
-| Medeln Nguyen          | @medelennn24          | Python, Pandas, Sklearn              |
+| Medelen Nguyen         | @medelennn24          | Python, Pandas, Sklearn, R           |
 | Harshal Patel          | @Hersh3y              | Python, Applied AI, Backend Dev      |
 | Joshua Stewart-Roberts | @jroberts2605         | R, Java, Python                      |
 | Dayana Pascual Sanchez | @dayanapascualsanchez | Python, Java, & AI/ML                |
