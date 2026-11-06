@@ -107,7 +107,7 @@ The following resources will help your team understand the problem space and pot
 
 **Official check-ins:** During our biweekly 45-minute AI Studio Lab Section meeting block (2nd and 4th week of every month)
 
- **Other ways to reach out to me with questions:** 
+**Other ways to reach out to me with questions:** 
 * Use the team’s Break Through Tech communication channel for project questions.
 * For longer technical questions, students may email me and copy the full team and AI Studio Coach.
 * I will aim to respond within a week.
