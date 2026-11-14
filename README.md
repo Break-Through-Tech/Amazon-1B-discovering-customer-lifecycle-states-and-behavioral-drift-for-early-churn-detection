@@ -89,6 +89,19 @@ Notebook 06 compares logistic regression, random forest, histogram gradient boos
 
 Because missing a churner is costly, the notebook reports an accuracy-oriented threshold and a separate tabular threshold selected for zero false negatives on out-of-fold training predictions. That threshold does not guarantee zero false negatives on future data. Evaluation includes accuracy, precision, recall, F1, ROC-AUC, PR-AUC, and false-negative counts.
 
+## Review Notes and Branch Summary
+
+This branch consolidates the churn-modeling cleanup and review work completed for the project. The key updates are:
+
+- [README.md](README.md) was rewritten to reflect the actual churn-detection workflow, the model benchmark setup, and the current project status instead of placeholder content.
+- [notebooks/03_features_and_label.ipynb](notebooks/03_features_and_label.ipynb) was finalized to build the customer-month feature panel, define the 90-day churn label, and save the model-ready parquet used by the training notebook.
+- [notebooks/06_model_training.ipynb](notebooks/06_model_training.ipynb) now contains the full workflow for chronological splits, temporal cross-validation, tuned tabular classifiers, threshold selection, and the custom CNN/GRU benchmark.
+- [data/features_and_label.parquet](data/features_and_label.parquet) was regenerated so the saved feature table matches the final notebook logic and model input schema.
+- [requirements.txt](requirements.txt) was updated to include PyTorch for the sequence-model benchmark.
+- A stale failed notebook cell was removed so the notebook execution history reflects the valid final workflow rather than an earlier interrupted run.
+
+This work is intentionally staged on a review branch before merging into the main branch. The goal is to let teammates inspect the churn logic, feature engineering, and notebook outputs before the project is considered final.
+
 ## Results and Key Findings
 
 On the held-out later months, the custom 1D CNN scored 75.3% accuracy, 74.9% precision, and 91.8% recall at threshold 0.50, with 1,305 false negatives. The GRU scored 75.2% accuracy, 74.5% precision, and 92.3% recall, with 1,215 false negatives. These are exploratory fixed-epoch results.
