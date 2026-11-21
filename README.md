@@ -85,7 +85,7 @@ The labeled table's overall churn rate is 57.86%. Churn prevalence varies by sna
 
 ## Model Development
 
-Notebook 06 compares logistic regression, random forest, histogram gradient boosting, and XGBoost. Randomized search selects accuracy on four expanding-window folds; the latest 20% of distinct months are held out. A custom 1D CNN and a GRU process six-month customer histories. The sequence models are fixed-epoch exploratory baselines and are not hyperparameter-tuned.
+Notebook 06 compares logistic regression, random forest, histogram gradient boosting, and XGBoost. Randomized search selects accuracy on four expanding-window folds; the latest 20% of distinct months are held out. Training snapshots whose 90-day label windows overlap a validation or test boundary are purged. A custom 1D CNN and a GRU process six-month customer histories using the same purged training period. The sequence models are fixed-epoch exploratory baselines and are not hyperparameter-tuned.
 
 Because missing a churner is costly, the notebook reports an accuracy-oriented threshold and a separate tabular threshold selected for zero false negatives on out-of-fold training predictions. That threshold does not guarantee zero false negatives on future data. Evaluation includes accuracy, precision, recall, F1, ROC-AUC, PR-AUC, and false-negative counts.
 
@@ -104,11 +104,11 @@ This work is intentionally staged on a review branch before merging into the mai
 
 ## Results and Key Findings
 
-On the held-out later months, the custom 1D CNN scored 75.3% accuracy, 74.9% precision, and 91.8% recall at threshold 0.50, with 1,305 false negatives. The GRU scored 75.2% accuracy, 74.5% precision, and 92.3% recall, with 1,215 false negatives. These are exploratory fixed-epoch results.
+On the held-out later months with the 90-day purge, the custom 1D CNN scored 75.3% accuracy, 75.0% precision, and 91.4% recall at threshold 0.50, with 1,361 false negatives. The GRU scored 75.4% accuracy, 75.0% precision, and 91.7% recall, with 1,311 false negatives. These are exploratory fixed-epoch results.
 
-Among tuned tabular models, random forest scored 74.5% accuracy at threshold 0.50, with 1,855 false negatives. The accuracy-selected histogram gradient-boosting threshold scored 73.6% accuracy and 93.1% recall, with 1,090 false negatives.
+Among tuned tabular models at threshold 0.50, random forest scored 74.1% accuracy and 91.0% recall, with 1,435 false negatives; XGBoost scored 74.2% accuracy and 90.8% recall, with 1,461 false negatives. The accuracy-selected XGBoost threshold of 0.430 scored 72.6% accuracy and 95.9% recall, with 654 false negatives.
 
-The random-forest threshold selected for zero false negatives in training cross-validation produced zero false negatives on this test period, but accuracy fell to 64.0% and it flagged many retained customers as churn-risk. This illustrates the tradeoff between avoiding missed churn and limiting false alarms. Rerun notebook 06 after changing features, labels, dependencies, or the data split.
+The XGBoost threshold selected for zero false negatives in purged training cross-validation produced zero false negatives on this test period, but its 0.035 threshold classified every test customer as churn-risk: accuracy and precision were both 63.3%. This illustrates the tradeoff between avoiding missed churn and limiting false alarms. Rerun notebook 06 after changing features, labels, dependencies, or the data split.
 
 ## Next Steps
 
